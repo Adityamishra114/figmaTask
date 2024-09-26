@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.Dashboard {
+  display: flex;
+  margin: 40px;
+  background-color: white;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+}
+.sidebar {
+  position: relative;
+  width: 20% !important;
+  height: 100% !important;
+  margin-left: 30px;
+  padding-top: 35px;
+  border-right: 1px solid #ccc !important;
+}
+.sidebarMenu {
+  margin-top: 30px;
+}
+nav ul li {
+  list-style: none;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 0px;
+}
+a {
+  color: black;
+  opacity: 0.8;
+  text-decoration: none;
+  margin: 0px 0px 0px 10px;
+}
+.tasks {
+  top: 50% !important;
+}
+.projects {
+  top: 50% !important;
+}
+.taskPlus,
+.projectPlus {
+  position: absolute;
+  right: 10px;
+  padding: 2px;
+  background-color: gray;
+  border-radius: 50%;
+  color: white;
+  font-size: 10px;
+}
+.card {
+  background: #e1dede;
+  margin-top: 70px;
+  padding: 10px;
+  width: 80%;
+  border-radius: 10px;
+}
+.card h5 {
+  text-align: center;
+  font-size: 14px;
+  padding: 15px;
+}
+p.sPara {
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button.btnmain {
+  font-size: 15px;
+  font-weight: 700;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border-radius: 30px;
+}
+.lastInfo {
+  margin-top: 60px;
+  padding-bottom: 12px;
+}
+.lastInfo li {
+  text-decoration: none;
+  margin-bottom: 20px;
+  list-style: none;
+}
+.mainContainer {
+  width: 60% !important;
+  height: 100% !important;
+  margin-left: 30px;
+  padding-top: 35px;
+  border-right: 1px solid #ccc !important;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+h4.heroTitle {
+  font-size: 25px;
+  font-weight: 700;
+}
+.maincard {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 30px;
+  margin: 40px;
+}
+.maincard p {
+  font-size: 16px;
+  margin-top: 12px;
+  color: black;
+  opacity: 0.7;
+}
+.fa-calendar {
+  padding: 6px;
+  background-color: gray;
+  border-radius: 50%;
+  color: white;
+  font-size: 18px;
+  height: 30px;
+  width: 30px;
+}
+.cardinfoM {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 30px;
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.firstCard,
+.secondCard {
+  width: 30%;
+  display: flex;
+  border-right: 1px solid #ccc !important;
+}
+.lastCard {
+  display: flex;
+}
+.may {
+  background: gray;
+  padding: 6px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+.week {
+  padding: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+}
+.titlePara {
+  margin-left: 10px;
+}
+.titlePara h5 {
+  margin-bottom: 5px;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+.performance {
+  padding-bottom: 38px;
+  margin: 40px;
+}
+.taskC {
+  display: flex;
+  gap: 15px;
+}
+.curr {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px 0px 0px;
+}
+.curr span {
+  display: flex;
+  gap: 3px;
+}
+.curr span h6 {
+  margin-top: 5px;
+}
+.redcir {
+  font-size: 8px;
+  color: red;
+}
+.grncir {
+  font-size: 8px;
+  color: green;
+}
+.clockg {
+  font-size: 13px;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+.contactinfo {
+  width: 20% !important;
+  height: 100% !important;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 35px;
+}
+.cardcs {
+  background: #e1dede;
+  padding: 30px;
+  width: 100%;
+  border-radius: 10px;
+}
+.cardcs h5 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.imgci {
+  display: flex;
+  margin: auto;
+  margin-bottom: 5px;
+}
+.callvideo {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px 0px;
+}
+.eci {
+  text-align: center;
+}
+.fci,
+.vci,
+.eci {
+  padding: 8px;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  font-size: 12px;
+  height: 30px;
+  width: 30px;
+}
+.activity {
+  display: flex;
+  margin: 15px 0px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.act {
+  margin: 0 10px;
+  font-size: 15px;
+  color: black;
+  font-weight: 700;
+  opacity: 0.6;
+}
+.activity hr {
+  color: #ccc;
+  height: 1px;
+  width: 100%;
+}
+.testmo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testmo p {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.cCard {
+  display: flex;
+  align-items: flex-start;
+  margin: 7px 0px;
+}
+.imgc {
+  width: 30px;
+  height: 30px;
+}
+.cCard .titlePara {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.cCard .titlePara p {
+  font-size: 13px;
+}
+
+.commenttext {
+  width: 85%;
+  margin-left: 40px;
+  font-size: 13px;
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+  text-align: left;
+  display: flex;
+  justify-content: end !important;
+  padding: 7px;
+  margin-top: 10px;
+}
+.comCard {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.message {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+  background-color: #ccc;
+  border-radius: 5px;
+}
+.message input {
+  border: none;
+  padding: 0px 7px;
+  background-color: #ccc;
+}
+.message i{
+  margin: 0px 3px;
+}
